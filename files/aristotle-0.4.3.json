@@ -1,0 +1,12 @@
+{
+  "version": "0.4.3",
+  "file": "aristotle-0.4.3.zip",
+  "sha256": "66bb799f19b335d6c0cb814ec9745061e6bcac322a57d7e4a3cb39ea82711f54",
+  "min_shell": 1,
+  "force": false,
+  "notes": "Aristotle with automatic updates and beta channel",
+  "channel": "stable",
+  "published": "2026-10-13",
+  "commit": "6d7263f",
+  "signature": "piWwr02+9k387qX/UAiOoKMZ0RidTucf/eda2p5n9WriTdIM2T5ujI1EKBH0B05/OpvIMk6O3Y5f/dANQ6nCAw=="
+}
