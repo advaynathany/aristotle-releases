@@ -1,0 +1,12 @@
+{
+  "version": "0.6.1",
+  "file": "aristotle-0.6.1.zip",
+  "sha256": "2066f52168ab15d8b37831bde2e85073af47a8fabc4357c5ca45781cc7b4e614",
+  "min_shell": 1,
+  "force": false,
+  "notes": "Search: Krishna, Jesus, the Buddha, the Prophet Muhammad and Laozi now come first (also by Gita, Quran, Tao Te Ching)",
+  "channel": "stable",
+  "published": "2026-10-14",
+  "commit": "b6ad5bb",
+  "signature": "zMrbNzg7lZ4UF78tP+LLAmvHNEeURIf+31xFtlWpO/WLiJi5cGd/+sFkhvpKZo/PagOfklmsIDLGovSHXedbBA=="
+}
