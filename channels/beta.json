@@ -1,12 +1,12 @@
 {
-  "version": "0.4.1b1",
-  "file": "aristotle-0.4.1b1.zip",
-  "sha256": "51d84931dfbde20e160ea8491ff00d80f81fb8c5abc60865d18aed7c3284d65f",
+  "version": "0.4.3b1",
+  "file": "aristotle-0.4.3b1.zip",
+  "sha256": "a5bfac166489b3bbab98aa35dc684060c84c4a38e12c10b9453d2539ccd3717f",
   "min_shell": 1,
   "force": false,
-  "notes": "First beta: checks that beta updates arrive",
+  "notes": "Beta test build",
   "channel": "beta",
   "published": "2026-10-13",
-  "commit": "cb8f064",
-  "signature": "2kUIUbbibNDAYyVCxPcyG0PJJjKRzIwHwayKgmH1oj5gTPZC0mmHfIomz5Trs7ByEjTV9IZrbzsQ6B53xOSzAQ=="
+  "commit": "eaf188c",
+  "signature": "5CBzEIHo6lU8Wn8fMKDfeaPCuM9rOMkiLjyFC5IVKQUGFWHbakkquLpp4UQj1cP+/WJdf3TXyqs4/oNRfQlXCQ=="
 }

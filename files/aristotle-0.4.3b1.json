@@ -1,0 +1,12 @@
+{
+  "version": "0.4.3b1",
+  "file": "aristotle-0.4.3b1.zip",
+  "sha256": "a5bfac166489b3bbab98aa35dc684060c84c4a38e12c10b9453d2539ccd3717f",
+  "min_shell": 1,
+  "force": false,
+  "notes": "Beta test build",
+  "channel": "beta",
+  "published": "2026-10-13",
+  "commit": "eaf188c",
+  "signature": "5CBzEIHo6lU8Wn8fMKDfeaPCuM9rOMkiLjyFC5IVKQUGFWHbakkquLpp4UQj1cP+/WJdf3TXyqs4/oNRfQlXCQ=="
+}
