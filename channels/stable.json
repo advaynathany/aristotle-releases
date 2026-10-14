@@ -1,12 +1,12 @@
 {
-  "version": "0.4.1",
-  "file": "aristotle-0.4.1.zip",
-  "sha256": "6f450a8112926f1fc78247f72b01ff43eca5dd91f95d8aa768f39ea7d289e14c",
+  "version": "0.4.2",
+  "file": "aristotle-0.4.2.zip",
+  "sha256": "a96419115f9c833d07cf6980127173649ffe8d9d4b5e9c2dcb5fc61fbe15b7a0",
   "min_shell": 1,
   "force": false,
-  "notes": "Fixes switching between Stable and Beta",
+  "notes": "Updates show up as soon as they're published",
   "channel": "stable",
   "published": "2026-10-13",
-  "commit": "efd574c",
-  "signature": "OvixFqdDDmQhvGghwx+SLNNdzR7dm6wSoMDtNT5Sxi1MlXmorswEWtBIIi7iItY9Ak3LXQhZVxv70cwgj8CrCw=="
+  "commit": "0139549",
+  "signature": "O85SsW6KVk59yEITVHJvoyu7YZkJ+unLQ5cLbft+oFK5pGu69RZ91QLMaB9FdBYM6x5HRbIY/RANcwNOAO7OBQ=="
 }
