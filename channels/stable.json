@@ -1,12 +1,12 @@
 {
-  "version": "0.5.0",
-  "file": "aristotle-0.5.0.zip",
-  "sha256": "653afca0a0995bd64ee2d38203bd7f0a4187dab31c3ce08260a18d9b1d8e833c",
+  "version": "0.6.0",
+  "file": "aristotle-0.6.0.zip",
+  "sha256": "2f817521e195c7706f8484d2d3d9ebc00c126af0aeb3a1e1bd3f3deef63e8f41",
   "min_shell": 1,
   "force": false,
-  "notes": "Appearance: pick light, dark or system, a background (Neutral, Paper, Slate, Sage), an accent colour and text size. Find it at the bottom of the sidebar.",
+  "notes": "Sacred texts: ask Jesus, the Quran, Krishna, the Buddha and Laozi, with every claim cited to the verse",
   "channel": "stable",
-  "published": "2026-10-13",
-  "commit": "2c82d34",
-  "signature": "UXMBzQAZ9v3BinknAbeFEVCb9M17Qx20WRdr+ddMmyMykvrJY31ExEZgXPnlutzDXQmz95Ek2HOLnDhYTSyjBA=="
+  "published": "2026-10-14",
+  "commit": "ffb0323",
+  "signature": "fmC7/ZmzCyecqYTpDTZJun0LtvprjOdOytHdBqu3y6k+OEEZ/MkcVpwfYzWwA7/iU6W+y37ICjPGYn6IgFhZBw=="
 }
