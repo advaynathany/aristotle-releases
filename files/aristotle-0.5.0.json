@@ -1,0 +1,12 @@
+{
+  "version": "0.5.0",
+  "file": "aristotle-0.5.0.zip",
+  "sha256": "653afca0a0995bd64ee2d38203bd7f0a4187dab31c3ce08260a18d9b1d8e833c",
+  "min_shell": 1,
+  "force": false,
+  "notes": "Appearance: pick light, dark or system, a background (Neutral, Paper, Slate, Sage), an accent colour and text size. Find it at the bottom of the sidebar.",
+  "channel": "stable",
+  "published": "2026-10-13",
+  "commit": "2c82d34",
+  "signature": "UXMBzQAZ9v3BinknAbeFEVCb9M17Qx20WRdr+ddMmyMykvrJY31ExEZgXPnlutzDXQmz95Ek2HOLnDhYTSyjBA=="
+}

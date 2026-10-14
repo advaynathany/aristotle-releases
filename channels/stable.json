@@ -1,12 +1,12 @@
 {
-  "version": "0.4.3",
-  "file": "aristotle-0.4.3.zip",
-  "sha256": "66bb799f19b335d6c0cb814ec9745061e6bcac322a57d7e4a3cb39ea82711f54",
+  "version": "0.5.0",
+  "file": "aristotle-0.5.0.zip",
+  "sha256": "653afca0a0995bd64ee2d38203bd7f0a4187dab31c3ce08260a18d9b1d8e833c",
   "min_shell": 1,
   "force": false,
-  "notes": "Aristotle with automatic updates and beta channel",
+  "notes": "Appearance: pick light, dark or system, a background (Neutral, Paper, Slate, Sage), an accent colour and text size. Find it at the bottom of the sidebar.",
   "channel": "stable",
   "published": "2026-10-13",
-  "commit": "6d7263f",
-  "signature": "piWwr02+9k387qX/UAiOoKMZ0RidTucf/eda2p5n9WriTdIM2T5ujI1EKBH0B05/OpvIMk6O3Y5f/dANQ6nCAw=="
+  "commit": "2c82d34",
+  "signature": "UXMBzQAZ9v3BinknAbeFEVCb9M17Qx20WRdr+ddMmyMykvrJY31ExEZgXPnlutzDXQmz95Ek2HOLnDhYTSyjBA=="
 }
