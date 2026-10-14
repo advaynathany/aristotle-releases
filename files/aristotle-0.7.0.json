@@ -1,0 +1,12 @@
+{
+  "version": "0.7.0",
+  "file": "aristotle-0.7.0.zip",
+  "sha256": "6caf4437ef64af7b50df52a3648da1cec047454f61d94eba2d8e3ef2a9e9cb7e",
+  "min_shell": 1,
+  "force": false,
+  "notes": "Councils: ask several people the same question, let them reply to each other, and see where they agree and differ",
+  "channel": "stable",
+  "published": "2026-10-14",
+  "commit": "e2b1ab2",
+  "signature": "goMHF+lAANbezm05T10uoMxMM/b5NgXUuLRssfL/mSZfwD9+/CmvbHhwFtphI8KepTVZW1JLmC2CmkeoRi5ZBw=="
+}

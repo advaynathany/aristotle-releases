@@ -1,12 +1,12 @@
 {
-  "version": "0.6.1",
-  "file": "aristotle-0.6.1.zip",
-  "sha256": "2066f52168ab15d8b37831bde2e85073af47a8fabc4357c5ca45781cc7b4e614",
+  "version": "0.7.0",
+  "file": "aristotle-0.7.0.zip",
+  "sha256": "6caf4437ef64af7b50df52a3648da1cec047454f61d94eba2d8e3ef2a9e9cb7e",
   "min_shell": 1,
   "force": false,
-  "notes": "Search: Krishna, Jesus, the Buddha, the Prophet Muhammad and Laozi now come first (also by Gita, Quran, Tao Te Ching)",
+  "notes": "Councils: ask several people the same question, let them reply to each other, and see where they agree and differ",
   "channel": "stable",
   "published": "2026-10-14",
-  "commit": "b6ad5bb",
-  "signature": "zMrbNzg7lZ4UF78tP+LLAmvHNEeURIf+31xFtlWpO/WLiJi5cGd/+sFkhvpKZo/PagOfklmsIDLGovSHXedbBA=="
+  "commit": "e2b1ab2",
+  "signature": "goMHF+lAANbezm05T10uoMxMM/b5NgXUuLRssfL/mSZfwD9+/CmvbHhwFtphI8KepTVZW1JLmC2CmkeoRi5ZBw=="
 }
