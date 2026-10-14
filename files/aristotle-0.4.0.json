@@ -1,0 +1,12 @@
+{
+  "version": "0.4.0",
+  "file": "aristotle-0.4.0.zip",
+  "sha256": "6df1e1b6a8f254dbc5d0e9de77bdf89c9c5c4b14eedbfc7ada9a7c893a432224",
+  "min_shell": 1,
+  "force": false,
+  "notes": "First release with automatic updates",
+  "channel": "stable",
+  "published": "2026-10-13",
+  "commit": "182d8a6",
+  "signature": "Yb97jCx8BpC8w/P3vUeEDUB2kLgMdMQF08p1WT63RbR/EaHYWY2GnlpEcGZenpSkwxn++hQdjHaVTdRcK5bMBg=="
+}
