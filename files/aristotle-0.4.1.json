@@ -1,0 +1,12 @@
+{
+  "version": "0.4.1",
+  "file": "aristotle-0.4.1.zip",
+  "sha256": "6f450a8112926f1fc78247f72b01ff43eca5dd91f95d8aa768f39ea7d289e14c",
+  "min_shell": 1,
+  "force": false,
+  "notes": "Fixes switching between Stable and Beta",
+  "channel": "stable",
+  "published": "2026-10-13",
+  "commit": "efd574c",
+  "signature": "OvixFqdDDmQhvGghwx+SLNNdzR7dm6wSoMDtNT5Sxi1MlXmorswEWtBIIi7iItY9Ak3LXQhZVxv70cwgj8CrCw=="
+}
