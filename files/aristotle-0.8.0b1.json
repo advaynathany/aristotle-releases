@@ -1,0 +1,12 @@
+{
+  "version": "0.8.0b1",
+  "file": "aristotle-0.8.0b1.zip",
+  "sha256": "b351e466d22ef6d6e173fb80c1b46d1287446bf83987c0448fca4d8fec712f93",
+  "min_shell": 1,
+  "force": false,
+  "notes": "Finds far more of a person's writing: Claude searches the web for essays, speeches, letters and transcripts, plus their website, Wikisource, the Internet Archive, open-access papers and YouTube talks. Live progress while it looks, a Search again button, and X archive uploads for tweets.",
+  "channel": "beta",
+  "published": "2026-10-15",
+  "commit": "5712048",
+  "signature": "BkMOF9KVbvLEtFTzAdCw0A7FD/jrClPKZwgTZqBLuOW3vtktVDaaYu0y1wldugI2xyET5SpEItyqcgA2tYG8DQ=="
+}
