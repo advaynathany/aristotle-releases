@@ -1,0 +1,13 @@
+[
+  {
+    "slug": "krishna",
+    "name": "Krishna",
+    "description": "Hindu deity; teacher of the Bhagavad Gita",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Krishna_Holds_Up_Mount_Govardhan_%28MET_70694%29_cropped.png/330px-Krishna_Holds_Up_Mount_Govardhan_%28MET_70694%29_cropped.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "nodes": 338,
+    "passages": 49,
+    "size": 153614,
+    "sha256": "4dab79c676f731f7b4d60ffff5b9f5521e257bd5ac8dceb71c83d29b2d3a07c9",
+    "url": "https://raw.githubusercontent.com/advaynathany/aristotle-releases/main/packs/krishna.zip"
+  }
+]
