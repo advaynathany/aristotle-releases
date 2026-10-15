@@ -1,0 +1,12 @@
+{
+  "version": "0.9.1",
+  "file": "aristotle-0.9.1.zip",
+  "sha256": "e38d4ad2269bb9e6c7dd67f9b136c08b034a9a1d2639301ffcf920b2cb5b3682",
+  "min_shell": 1,
+  "force": false,
+  "notes": "Onboarding for new users, conversations that are saved and never disappear, plus everything from the 0.8 and 0.9 betas: wider source search, Worldview, Critique, a decision journal, streaming answers, Follow, ready-made maps (Gita, Gospels, Quran). YouTube support now updates itself.",
+  "channel": "stable",
+  "published": "2026-10-15",
+  "commit": "ae183fd",
+  "signature": "BZcWRygai2veda+dEb+Mi3l/zlt/V2uNGXA8M5ppCk/17cpgsYg/9OxN6TeEcX2VczePU5AmbMx/7C5P6lpGCw=="
+}

@@ -1,12 +1,12 @@
 {
-  "version": "0.7.0",
-  "file": "aristotle-0.7.0.zip",
-  "sha256": "6caf4437ef64af7b50df52a3648da1cec047454f61d94eba2d8e3ef2a9e9cb7e",
+  "version": "0.9.1",
+  "file": "aristotle-0.9.1.zip",
+  "sha256": "e38d4ad2269bb9e6c7dd67f9b136c08b034a9a1d2639301ffcf920b2cb5b3682",
   "min_shell": 1,
   "force": false,
-  "notes": "Councils: ask several people the same question, let them reply to each other, and see where they agree and differ",
+  "notes": "Onboarding for new users, conversations that are saved and never disappear, plus everything from the 0.8 and 0.9 betas: wider source search, Worldview, Critique, a decision journal, streaming answers, Follow, ready-made maps (Gita, Gospels, Quran). YouTube support now updates itself.",
   "channel": "stable",
-  "published": "2026-10-14",
-  "commit": "e2b1ab2",
-  "signature": "goMHF+lAANbezm05T10uoMxMM/b5NgXUuLRssfL/mSZfwD9+/CmvbHhwFtphI8KepTVZW1JLmC2CmkeoRi5ZBw=="
+  "published": "2026-10-15",
+  "commit": "ae183fd",
+  "signature": "BZcWRygai2veda+dEb+Mi3l/zlt/V2uNGXA8M5ppCk/17cpgsYg/9OxN6TeEcX2VczePU5AmbMx/7C5P6lpGCw=="
 }
