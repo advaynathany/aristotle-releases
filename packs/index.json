@@ -1,5 +1,16 @@
 [
   {
+    "slug": "jesus",
+    "name": "Jesus",
+    "description": "Central figure of Christianity",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/Spas_vsederzhitel_sinay_%28cropped1%29.jpg/330px-Spas_vsederzhitel_sinay_%28cropped1%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "nodes": 1171,
+    "passages": 197,
+    "size": 541218,
+    "sha256": "cc0bb290649142526478206b4a23ec1dba8fa518900b011a5de994cb7143a5dc",
+    "url": "https://raw.githubusercontent.com/advaynathany/aristotle-releases/main/packs/jesus.zip"
+  },
+  {
     "slug": "krishna",
     "name": "Krishna",
     "description": "Hindu deity; teacher of the Bhagavad Gita",
