@@ -1,12 +1,12 @@
 {
-  "version": "0.8.0b1",
-  "file": "aristotle-0.8.0b1.zip",
-  "sha256": "b351e466d22ef6d6e173fb80c1b46d1287446bf83987c0448fca4d8fec712f93",
+  "version": "0.9.0b1",
+  "file": "aristotle-0.9.0b1.zip",
+  "sha256": "44e1d3411adb64da249f4f64ba1c58b0bd72b6db3326ca0f7105ad2bf4886a84",
   "min_shell": 1,
   "force": false,
-  "notes": "Finds far more of a person's writing: Claude searches the web for essays, speeches, letters and transcripts, plus their website, Wikisource, the Internet Archive, open-access papers and YouTube talks. Live progress while it looks, a Search again button, and X archive uploads for tweets.",
+  "notes": "Worldview and Critique tabs, a decision journal, answers that stream as they're written, Follow for living people, how views changed over the years, interviews with other speakers set aside, signature ideas read first, and ready-made public-domain maps.",
   "channel": "beta",
   "published": "2026-10-15",
-  "commit": "5712048",
-  "signature": "BkMOF9KVbvLEtFTzAdCw0A7FD/jrClPKZwgTZqBLuOW3vtktVDaaYu0y1wldugI2xyET5SpEItyqcgA2tYG8DQ=="
+  "commit": "05c934d",
+  "signature": "qUBVsuPt3k1U+NnpYVkzQjsSuZs3to7yBbwnj9e/otIU6YvZF5fz2RtRRwbYDKQSzRI6s9TF8KCfAx0WYzB1Dw=="
 }
