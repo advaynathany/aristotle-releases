@@ -20,5 +20,16 @@
     "size": 153614,
     "sha256": "4dab79c676f731f7b4d60ffff5b9f5521e257bd5ac8dceb71c83d29b2d3a07c9",
     "url": "https://raw.githubusercontent.com/advaynathany/aristotle-releases/main/packs/krishna.zip"
+  },
+  {
+    "slug": "prophet-muhammad",
+    "name": "Prophet Muhammad",
+    "description": "Prophet of Islam",
+    "image": "",
+    "nodes": 2923,
+    "passages": 364,
+    "size": 1148454,
+    "sha256": "789a7c8ab790b0983864f2e441346ccaaff81f574e2d962a49d7e87e57646d9a",
+    "url": "https://raw.githubusercontent.com/advaynathany/aristotle-releases/main/packs/prophet-muhammad.zip"
   }
 ]
