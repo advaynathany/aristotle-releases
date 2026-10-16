@@ -1,12 +1,12 @@
 {
-  "version": "0.9.2",
-  "file": "aristotle-0.9.2.zip",
-  "sha256": "acd558aec1221cd68e3db8ba789fb870fc1d72588dcf3fe86c55b18ea0131a58",
+  "version": "0.9.3",
+  "file": "aristotle-0.9.3.zip",
+  "sha256": "a16a356cbf0049cff238d46d160f6bf8aa93a0b55c8b0d7652c4e3e985437335",
   "min_shell": 1,
   "force": false,
-  "notes": "Aristotle now opens in its own Mac window instead of Chrome (download the new app once to get it). You can also delete people and councils, with a confirmation first; deleted people go to the Trash.",
+  "notes": "Deleting a conversation is easier: a trash icon in History and in the top bar, with a confirmation first.",
   "channel": "stable",
   "published": "2026-10-15",
-  "commit": "1c382b4",
-  "signature": "5RhHHX6wLC9A/717NjPIIZa515AWf9sK+f8KLPWLYqGjYu7xvdqjETRSZyCaeLGdmxuci2KG/3d4BWKZxVmBBg=="
+  "commit": "825d679",
+  "signature": "Gxjj2ZyJSGSUq9Ln3FrKr5qgwM56rXt+zqCSsh9oxe+vDVOkgH9XUh5+9UKnjYs3VOdQOku9A9N4+HfR54XSBA=="
 }

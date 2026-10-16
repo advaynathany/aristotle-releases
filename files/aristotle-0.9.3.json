@@ -1,0 +1,12 @@
+{
+  "version": "0.9.3",
+  "file": "aristotle-0.9.3.zip",
+  "sha256": "a16a356cbf0049cff238d46d160f6bf8aa93a0b55c8b0d7652c4e3e985437335",
+  "min_shell": 1,
+  "force": false,
+  "notes": "Deleting a conversation is easier: a trash icon in History and in the top bar, with a confirmation first.",
+  "channel": "stable",
+  "published": "2026-10-15",
+  "commit": "825d679",
+  "signature": "Gxjj2ZyJSGSUq9Ln3FrKr5qgwM56rXt+zqCSsh9oxe+vDVOkgH9XUh5+9UKnjYs3VOdQOku9A9N4+HfR54XSBA=="
+}
