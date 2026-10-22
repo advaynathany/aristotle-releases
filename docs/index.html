@@ -3,9 +3,9 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Aristotle for Mac</title>
-<meta name="description" content="Think a decision through with the people you trust, reasoned from their own words. Every claim links to the passage it came from. Runs on your Mac with your own Claude plan.">
-<meta property="og:title" content="Aristotle for Mac">
+<title>Aristotle for Mac and Windows</title>
+<meta name="description" content="Think a decision through with the people you trust, reasoned from their own words. Every claim links to the passage it came from. Runs on your Mac or PC with your own Claude plan.">
+<meta property="og:title" content="Aristotle for Mac and Windows">
 <meta property="og:description" content="Think a decision through with the people you trust, reasoned from their own words, with every claim cited.">
 <meta property="og:image" content="img/mapd.jpg">
 <link rel="icon" href="img/favicon.png">
@@ -91,6 +91,8 @@ h1 { font-size: clamp(40px, 6.4vw, 68px); line-height: 1.04; letter-spacing: -0.
 .meta span + span::before { content: "·"; margin-right: 14px; color: var(--line-strong); }
 .platform-note { display: none; font-size: 14px; color: var(--fg-2); background: var(--bg-inset); border: 1px solid var(--line); padding: 8px 14px; border-radius: 8px; }
 .platform-note.show { display: block; }
+html:not(.win) .win-only, html.win .mac-only { display: none !important; }
+.alt-os { font-size: 14px; color: var(--fg-2); } .alt-os a { color: inherit; text-decoration: underline; text-underline-offset: 3px; }
 
 .shot { margin: 72px auto 0; max-width: 1180px; padding: 0 24px; perspective: 2400px; }
 .window { border-radius: 14px; overflow: hidden; background: var(--bg); border: 1px solid var(--line-strong); box-shadow: var(--shadow-lg);
@@ -204,6 +206,7 @@ footer button { background: none; border: 0; color: inherit; font: inherit; curs
 <body>
 <svg width="0" height="0" style="position:absolute" aria-hidden="true">
   <symbol id="apple" viewBox="0 0 24 24"><path fill="currentColor" d="M16.37 12.6c-.02-2.3 1.88-3.4 1.96-3.46-1.07-1.56-2.73-1.78-3.32-1.8-1.41-.14-2.76.83-3.47.83-.72 0-1.82-.81-3-.79-1.54.02-2.96.9-3.75 2.27-1.6 2.78-.41 6.9 1.15 9.15.76 1.1 1.67 2.34 2.86 2.3 1.15-.05 1.58-.74 2.97-.74 1.38 0 1.77.74 2.98.72 1.23-.02 2.01-1.12 2.76-2.23.87-1.28 1.23-2.51 1.25-2.58-.03-.01-2.4-.92-2.39-3.67ZM14.1 5.85c.63-.77 1.06-1.83.94-2.89-.91.04-2.01.61-2.67 1.37-.58.67-1.1 1.76-.96 2.8 1.02.08 2.06-.52 2.69-1.28Z"/></symbol>
+  <symbol id="windows" viewBox="0 0 24 24"><path fill="currentColor" d="M3 5.1 10.4 4v7.1H3zM11.4 3.9 21 2.5v8.6h-9.6zM3 12.1h7.4v7.1L3 18.1zM11.4 12.1H21v8.6l-9.6-1.4z"/></symbol>
   <symbol id="check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></symbol>
   <symbol id="search" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></symbol>
   <symbol id="quote" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M16 3a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2 1 1 0 0 1 1 1v1a2 2 0 0 1-2 2 1 1 0 0 0-1 1v2a1 1 0 0 0 1 1 6 6 0 0 0 6-6V5a2 2 0 0 0-2-2z"/><path d="M5 3a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2 1 1 0 0 1 1 1v1a2 2 0 0 1-2 2 1 1 0 0 0-1 1v2a1 1 0 0 0 1 1 6 6 0 0 0 6-6V5a2 2 0 0 0-2-2z"/></symbol>
@@ -220,7 +223,7 @@ footer button { background: none; border: 0; color: inherit; font: inherit; curs
       <a href="#how">How it works</a>
       <a href="#install">Install</a>
       <a href="#faq">FAQ</a>
-      <a class="btn primary dl" href="#">Download</a>
+      <a class="btn primary dl mac-only" href="#">Download</a><a class="btn primary dl-win win-only" href="#">Download</a>
     </nav>
   </div>
 </header>
@@ -232,9 +235,11 @@ footer button { background: none; border: 0; color: inherit; font: inherit; curs
       <h1>Think it through with the people you trust.</h1>
       <p class="lede">Bring a real decision to a thinker you admire. Aristotle answers from their own published words, and every claim links to the passage it came from.</p>
       <div class="cta">
-        <a class="btn primary lg dl" href="#"><svg><use href="#apple"/></svg>Download for Mac</a>
-        <p class="platform-note" id="platform-note">Aristotle is a Mac app. Open this page on a Mac with Apple silicon to install it.</p>
-        <div class="meta"><span class="ver">Version 0.4</span><span>Apple silicon</span><span>macOS 13 or later</span><span>Free, with your Claude plan</span></div>
+        <a class="btn primary lg dl mac-only" href="#"><svg><use href="#apple"/></svg>Download for Mac</a>
+        <a class="btn primary lg dl-win win-only" href="#"><svg><use href="#windows"/></svg>Download for Windows</a>
+        <p class="alt-os"><span class="mac-only">Also for <a class="dl-win" href="#">Windows</a></span><span class="win-only">Also for <a class="dl" href="#">Mac</a></span></p>
+        <p class="platform-note" id="platform-note">Aristotle runs on Macs with Apple silicon and on Windows 10 or 11. Open this page on one of them to install it.</p>
+        <div class="meta"><span class="ver">Version 0.4</span><span class="mac-only">Apple silicon, macOS 13 or later</span><span class="win-only">Windows 10 or 11 (64-bit)</span><span>Free, with your Claude plan</span></div>
       </div>
     </div>
     <div class="shot">
@@ -293,7 +298,7 @@ footer button { background: none; border: 0; color: inherit; font: inherit; curs
 
       <div class="grid3">
         <div class="card reveal"><svg><use href="#pencil"/></svg><h3>The map is yours to edit</h3><p>Approve, reject, reword or merge beliefs with keyboard shortcuts. Rejected beliefs are never used again, even after a rebuild.</p></div>
-        <div class="card reveal"><svg><use href="#laptop"/></svg><h3>Runs on your Mac</h3><p>Your library lives in ~/Aristotle. There's no Aristotle account and no server holding your questions.</p></div>
+        <div class="card reveal"><svg><use href="#laptop"/></svg><h3>Runs on your computer</h3><p>Your library lives in an Aristotle folder in your home folder. There's no Aristotle account and no server holding your questions.</p></div>
         <div class="card reveal"><svg><use href="#search"/></svg><h3>Uses your own Claude</h3><p>Reading and answering run through Claude Code on your Pro or Max plan. No API key and nothing extra to pay.</p></div>
         <div class="card reveal"><svg><use href="#users"/></svg><h3>Councils</h3><p>Put one question to several people at once. They answer, reply to each other, and you see where they agree and differ.</p></div>
         <div class="card reveal"><svg><use href="#compass"/></svg><h3>Worldview</h3><p>A person's core beliefs, their themes, where they pull against each other, and how their views changed over the years.</p></div>
@@ -310,12 +315,14 @@ footer button { background: none; border: 0; color: inherit; font: inherit; curs
       <p class="eyebrow">Install</p>
       <h2>Up and running in a few minutes.</h2>
       <ol>
-        <li><div><h3>Download and drag to Applications</h3><p>Open <b>Aristotle.dmg</b> and drag Aristotle onto the Applications folder.</p></div></li>
-        <li><div><h3>Allow it to open, once</h3><p>Aristotle isn't from the App Store, so macOS asks first. Open it, click <b>Done</b>, then go to <b>System Settings → Privacy &amp; Security</b> and click <b>Open Anyway</b>.</p>
+        <li class="win-only"><div><h3>Download and run the installer</h3><p>Open <b>Aristotle-Setup.exe</b>. It installs for you only, with no admin password, and adds Aristotle to the Start menu.</p></div></li>
+        <li class="win-only"><div><h3>Allow it to run, once</h3><p>Aristotle isn't from the Microsoft Store, so Windows SmartScreen may say it protected your PC. Click <b>More info</b>, then <b>Run anyway</b>.</p></div></li>
+        <li class="mac-only"><div><h3>Download and drag to Applications</h3><p>Open <b>Aristotle.dmg</b> and drag Aristotle onto the Applications folder.</p></div></li>
+        <li class="mac-only"><div><h3>Allow it to open, once</h3><p>Aristotle isn't from the App Store, so macOS asks first. Open it, click <b>Done</b>, then go to <b>System Settings → Privacy &amp; Security</b> and click <b>Open Anyway</b>.</p>
           <div class="copy"><span style="font-size:13px;color:var(--fg-3)">Or in Terminal:</span><code id="xattr">xattr -dr com.apple.quarantine /Applications/Aristotle.app</code><button type="button" data-copy="xattr">Copy</button></div></div></li>
-        <li><div><h3>Connect Claude and pick your people</h3><p>The first time it opens, Aristotle walks you through installing Claude Code (one line in Terminal), signing in with your Claude account, and choosing who to think with. Ready-made maps are ready to ask right away.</p></div></li>
+        <li><div><h3>Connect Claude and pick your people</h3><p>The first time it opens, Aristotle walks you through installing Claude Code (one line in Terminal or PowerShell), signing in with your Claude account, and choosing who to think with. Ready-made maps are ready to ask right away.</p></div></li>
       </ol>
-      <p class="req">Needs a Mac with Apple silicon (M1 or newer), macOS 13 or later, and a Claude Pro or Max subscription.</p>
+      <p class="req">Needs a Mac with Apple silicon (M1 or newer) and macOS 13 or later, or a 64-bit PC with Windows 10 or 11. Plus a Claude Pro or Max subscription.</p>
     </div>
   </div>
 
@@ -326,8 +333,8 @@ footer button { background: none; border: 0; color: inherit; font: inherit; curs
       <div class="faq">
         <details><summary>Is it talking to the actual person?</summary><p>No. It's a model of their published ideas, not them, and it never claims otherwise. Answers describe what their framework suggests and quote only what they really wrote or said. Aristotle isn't affiliated with or endorsed by anyone in your library.</p></details>
         <details><summary>What does it cost?</summary><p>The app is free. Building a map and asking questions use your Claude plan, the same as using Claude yourself. A new person starts with a small build (about 70 Claude calls), and every result is cached so nothing is paid for twice. Ready-made maps use none.</p></details>
-        <details><summary>Does it work on Intel Macs, Windows or Linux?</summary><p>Not yet. This release is for Macs with Apple silicon (M1 or newer).</p></details>
-        <details><summary>Where does my data go?</summary><p>Your library, maps, conversations and journal stay in ~/Aristotle on your Mac. Text is sent to Claude to read sources and write answers, under your own Claude account.</p></details>
+        <details><summary>Does it work on Windows, Intel Macs or Linux?</summary><p>Windows, yes: Windows 10 or 11, 64-bit. Intel Macs and Linux aren't supported yet.</p></details>
+        <details><summary>Where does my data go?</summary><p>Your library, maps, conversations and journal stay in the Aristotle folder in your home folder, on your own computer. Text is sent to Claude to read sources and write answers, under your own Claude account.</p></details>
         <details><summary>How do updates work?</summary><p>Automatically. Aristotle checks for a new version when it opens and every few hours while it runs, downloads it in the background, and switches over the next time you open it. Updates are signed, and if one ever fails to start, it goes back to the version that worked. You only download from this page once.</p></details>
         <details><summary>Is it advice?</summary><p>No. It's a way to think a decision through from someone else's point of view. It isn't medical, legal or financial advice.</p></details>
         <details><summary>Something's broken, or I have an idea.</summary><p>Use the <b>Feedback</b> button in the bottom-right corner of the app. It goes straight to the person who makes Aristotle.</p></details>
@@ -340,7 +347,9 @@ footer button { background: none; border: 0; color: inherit; font: inherit; curs
       <img src="img/icon.png" alt="" width="72" height="72">
       <h2>Bring the decision. Get their reasoning.</h2>
       <div class="cta">
-        <a class="btn primary lg dl" href="#"><svg><use href="#apple"/></svg>Download for Mac</a>
+        <a class="btn primary lg dl mac-only" href="#"><svg><use href="#apple"/></svg>Download for Mac</a>
+        <a class="btn primary lg dl-win win-only" href="#"><svg><use href="#windows"/></svg>Download for Windows</a>
+        <p class="alt-os"><span class="mac-only">Also for <a class="dl-win" href="#">Windows</a></span><span class="win-only">Also for <a class="dl" href="#">Mac</a></span></p>
         <div class="meta"><span class="ver">Version 0.4</span><span id="size">About 85 MB</span></div>
       </div>
     </div>
@@ -360,16 +369,20 @@ footer button { background: none; border: 0; color: inherit; font: inherit; curs
 // the app updates itself to on first launch, so this page never needs editing for a release.
 const REPO = "advaynathany/aristotle-releases";
 const DOWNLOAD_URL = `https://github.com/${REPO}/releases/latest/download/Aristotle.dmg`;
+const WINDOWS_URL = `https://github.com/${REPO}/releases/latest/download/Aristotle-Setup.exe`;
 document.querySelectorAll(".dl").forEach(a => a.href = DOWNLOAD_URL);
+document.querySelectorAll(".dl-win").forEach(a => a.href = WINDOWS_URL);
+const onWindows = /Windows/.test(navigator.userAgent);
+if (onWindows) document.documentElement.classList.add("win");
 fetch(`https://raw.githubusercontent.com/${REPO}/main/channels/stable.json`, {cache: "no-store"})
   .then(r => r.ok ? r.json() : null).then(m => { if (m?.version) document.querySelectorAll(".ver").forEach(el => el.textContent = `Version ${m.version}`); }).catch(() => {});
 fetch(`https://api.github.com/repos/${REPO}/releases/latest`)
-  .then(r => r.ok ? r.json() : null).then(r => { const a = r?.assets?.find(a => a.name === "Aristotle.dmg");
+  .then(r => r.ok ? r.json() : null).then(r => { const a = r?.assets?.find(a => a.name === (onWindows ? "Aristotle-Setup.exe" : "Aristotle.dmg"));
     if (a) document.getElementById("size").textContent = `${Math.round(a.size / 1e6)} MB download`; }).catch(() => {});
 
-// Not on a Mac: say so next to the button instead of hiding it.
+// Neither a Mac nor Windows: say so next to the button instead of hiding it.
 const ua = navigator.userAgent;
-if (!/Macintosh|Mac OS X/.test(ua) || /iPhone|iPad/.test(ua)) document.getElementById("platform-note").classList.add("show");
+if ((!/Macintosh|Mac OS X/.test(ua) && !onWindows) || /iPhone|iPad/.test(ua)) document.getElementById("platform-note").classList.add("show");
 
 const header = document.getElementById("top");
 addEventListener("scroll", () => header.classList.toggle("scrolled", scrollY > 8), {passive: true});
