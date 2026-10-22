@@ -1,0 +1,12 @@
+{
+  "version": "0.9.4",
+  "file": "aristotle-0.9.4.zip",
+  "sha256": "20883c893fe8308f69de5b5dffb358c74a0375f62fccc71cf61d9713ba70c088",
+  "min_shell": 1,
+  "force": false,
+  "notes": "Aristotle now runs on Windows too. Small fixes: settings and chats save atomically.",
+  "channel": "stable",
+  "published": "2026-10-22",
+  "commit": "5d6f2c2",
+  "signature": "yODhQWp21hGygQMfYLoAwZd6+AfJ4RxQ0rAQ4Apzla+N0vgjEMMekRozmyDiGSqdwri46M61uITgjYitgmg/Cw=="
+}
