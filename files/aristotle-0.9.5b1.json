@@ -1,0 +1,12 @@
+{
+  "version": "0.9.5b1",
+  "file": "aristotle-0.9.5b1.zip",
+  "sha256": "f39f06fc61f70cff8cb163ecf1f505d08f7c1a78d2f36917dea54887bed7daf5",
+  "min_shell": 1,
+  "force": false,
+  "notes": "Scripture in the original language with an Answer in picker (e.g. Hindi); Just for fun tab and fictional characters; Windows library fixed; model settings (Codex experimental); find bar; Critique reads the whole draft.",
+  "channel": "beta",
+  "published": "2026-11-10",
+  "commit": "621ebfe",
+  "signature": "0cXmbfgKZ19RJfazoamS9CL7rIPM4uEjoErzsYQtUu8PGgJWDHgVH26pCEnhoziGj8d6WPoqdzahu4PlV+jZCw=="
+}
